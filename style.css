@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    
+}
+
+body{
+    background-image: url("gradientbg.png");
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+.accBox{
+    margin: 1em;
+    padding: 1em;
+    /* border: 3px solid black; */
+    align-items: center;
+    text-align: center;
+    
+}
+
+.accBox2{
+    padding: 1em;
+    border: 3px solid cornflowerblue;
+    border-radius: 2em;
+    width: 10em;
+    align-items: center;
+    margin-left: 52em;
+    
+}
+
+/* .innerBox{
+    
+    border: 2px solid peachpuff;
+    border-radius: 5px;
+    width: 500px;
+    background-color:seagreen;
+    display: flex; 
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+}*/
+
+
+#name, #lname{
+    background-color: white;
+}
+
+.pHG{
+    text-align: center;
+    opacity: 0;
+}
+
+.opacity{
+    opacity:1;
+}
+
+.opacity1{
+    opacity: 0;
+}
+
+.pinBox{
+    opacity: 0;
+    text-align: center;
+}
+
+.pinInput{
+    background-color: white;
+}
+
+.pinP{
+    opacity: 0;
+    border: 3px solid rgb(218, 178, 178);
+    border-radius: 2em;
+    text-align: center;
+    display: inline;
+    
+}
+
+.mariopic{
+    opacity: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.last-div{
+    text-align: center;
+}
